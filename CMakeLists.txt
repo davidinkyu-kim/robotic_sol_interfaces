@@ -13,8 +13,9 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-	"msg/SensorsOutput.msg"
-	"srv/ReadSensor.srv"
+	"msg/Sensor3dof.msg"
+  "msg/SensorsOutput.msg"
+  "srv/ReadSensor.srv"
 	)
 
 if(BUILD_TESTING)

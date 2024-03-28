@@ -1,1 +1,1 @@
-float32[6] sensor_output
+Sensor3dof[] sensors
